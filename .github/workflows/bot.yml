@@ -25,4 +25,4 @@ jobs:
         run: |
           node index.js
         env:
-          DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+          DISCORD_TOKEN: ${{ client.login(process.env.DISCORD_TOKEN); }}
